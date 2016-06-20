@@ -1,15 +1,17 @@
 <?php
 
 // Add the mediabox style sheet
-$GLOBALS['TL_CSS'][] = 'assets/mootools/mediabox/'. MEDIABOX .'/css/mediaboxAdvBlack21.css||static';
+$GLOBALS['TL_CSS'][] = 'assets/mootools/mediabox/'. $GLOBALS['TL_ASSETS']['MEDIABOX'] .'/css/mediaboxAdvBlack21.css|static';
 
 ?>
 
-<script src="<?php echo TL_ASSETS_URL; ?>assets/mootools/mediabox/<?php echo MEDIABOX; ?>/js/mediabox.js"></script>
+<script src="<?= TL_ASSETS_URL ?>assets/mootools/mediabox/<?= $GLOBALS['TL_ASSETS']['MEDIABOX'] ?>/js/mediabox.js"></script>
 <script>
-    (function($) {
+    (function ($) {
 
-        var makeMediabox = function(container) {
+        var makeMediabox = function (container) {
+
+
             selector = 'mbImage';
             selector_next = 'mbNextLink';
             selector_prev = 'mbPrevLink';
@@ -19,27 +21,29 @@ $GLOBALS['TL_CSS'][] = 'assets/mootools/mediabox/'. MEDIABOX .'/css/mediaboxAdvB
                 selector_prev = '#' + container + ' ' + 'mbPrevLink';
             }
 
-            var links = $$('a').filter(function(el) {
+            var links = $$('a').filter(function (el) {
                 return el.getAttribute('data-lightbox') != null;
             });
+
             $$(links).mediabox({
                 // Put custom options here
-            }, function(el) {
+            }, function (el) {
                 return [el.href, el.title, el.getAttribute('data-lightbox')];
-            }, function(el) {
+            }, function (el) {
                 var data = this.getAttribute('data-lightbox').split(' ');
                 return (this == el) || (data[0] && el.getAttribute('data-lightbox').match(data[0]));
             });
-            $(selector).addEvent('swipe', function(e) {
+            $(selector).addEvent('swipe', function (e) {
                 (e.direction == 'left') ? $(selector_next).fireEvent('click') : $(selector_prev).fireEvent('click');
             });
+
         }
 
-        window.addEvent('domready', function() {
+        window.addEvent('domready', function () {
             makeMediabox();
         });
 
-        document.addEventListener("onRsContentChanged", function(e) {
+        document.addEventListener("onRsContentChanged", function (e) {
             container = e.detail.container;
             makeMediabox(container);
         });

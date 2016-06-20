@@ -1,15 +1,16 @@
 <?php
 
 // Add the mediaelement style sheet
-$GLOBALS['TL_CSS'][] = 'assets/jquery/mediaelement/'. MEDIAELEMENT .'/css/mediaelementplayer.min.css||static';
+$GLOBALS['TL_CSS'][] = 'assets/jquery/mediaelement/'. $GLOBALS['TL_ASSETS']['MEDIAELEMENT'] .'/css/mediaelementplayer.min.css|static';
 
 ?>
 
-<script src="<?php echo TL_ASSETS_URL; ?>assets/jquery/mediaelement/<?php echo MEDIAELEMENT; ?>/js/mediaelement-and-player.min.js"></script>
+<script src="<?= TL_ASSETS_URL ?>assets/jquery/mediaelement/<?= $GLOBALS['TL_ASSETS']['MEDIAELEMENT'] ?>/js/mediaelement-and-player.min.js"></script>
 <script>
     (function($) {
         $(document).ready(function() {
             var makeMediaelement = function(container) {
+
                 selector = 'video,audio';
                 if (container) {
                     selector  = '#' + container + ' ' + 'video,';
@@ -18,7 +19,7 @@ $GLOBALS['TL_CSS'][] = 'assets/jquery/mediaelement/'. MEDIAELEMENT .'/css/mediae
 
                 $(selector).mediaelementplayer({
                     // Put custom options here
-                    pluginPath: '<?php echo TL_PATH; ?>/assets/jquery/mediaelement/<?php echo MEDIAELEMENT; ?>/',
+                    pluginPath: '<?= TL_PATH ?>/assets/jquery/mediaelement/<?= $GLOBALS['TL_ASSETS']['MEDIAELEMENT'] ?>/',
                     flashName: 'legacy/flashmediaelement.swf',
                     silverlightName: 'legacy/silverlightmediaelement.xap'
                 });

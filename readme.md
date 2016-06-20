@@ -6,7 +6,7 @@ A readspeaker implementation for Contao CMS.
 
 the readspeaker module is now available for contao 3.5 LTS (currently 3.5.14)
 
-## installation guide for contao 4.X
+## manually installation guide for contao 4.X
 Currently, there is no ER Backend in Contao 4.X (last checked 20.06.2014 Contao version:4.1.3)
 But you may install Contao 3.x modules manually in Contao 4.0, with a few tweaks.
  
