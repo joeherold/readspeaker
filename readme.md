@@ -1,3 +1,3 @@
-# wp_readspeaker
+# readspeaker
 
 A readspeaker implementation for contao.

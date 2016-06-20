@@ -1,5 +1,5 @@
 {
-    "name":"webpixels/wp_readspeaker",
+    "name":"joeherold/readspeaker",
     "description":"A readspeaker implementation for contao.",
     "keywords":["webpixels","pliigo","webplus", "contao"],
     "type":"contao-module",
@@ -15,9 +15,9 @@
     ],
     "support":{
         "email":"j.pichler@webpixels.at",
-        "issues":"https://bitbucket.org/joeherold/wp_readspeaker/issues",
+        "issues":"https://github.com/joeherold/readspeaker/issues",
         "irc":"irc://irc.freenode.org/contao.dev",
-        "source":"https://bitbucket.org/joeherold/wp_readspeaker/src"
+        "source":"https://github.com/joeherold/readspeaker"
     },
     "require":{
         "php":">=5.3",
