@@ -1,3 +1,5 @@
+![readspeaker](https://contao.org/files/repository/readspeaker/10000009/picture.jpg)
+
 # readspeaker
 
 A readspeaker implementation for contao.
