@@ -1,6 +1,6 @@
 # readspeaker
 
-A readspeaker implementation for contao.
+A readspeaker implementation for Contao CMS.
 
 # new release
 
