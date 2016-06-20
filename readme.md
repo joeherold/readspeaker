@@ -1,4 +1,4 @@
-![readspeaker](https://contao.org/files/repository/readspeaker/10000009/picture.jpg)
+![readspeaker](https://contao.org/files/repository/readspeaker/10000009/picture.jpg =100x)
 
 # readspeaker
 
