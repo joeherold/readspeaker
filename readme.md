@@ -2,11 +2,11 @@
 
 A readspeaker implementation for Contao CMS.
 
-# new release
+## new release
 
 the readspeaker module is now available for contao 3.5 LTS (currently 3.5.14)
 
-# quote from readspeaker.com
+## quote from readspeaker.com
 
 ***Make your content talk!***
 Use the power of ReadSpeaker text to speech to give a voice to your
