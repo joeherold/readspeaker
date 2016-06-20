@@ -1,0 +1,17 @@
+<div class="rs_player_container block <?php echo $this->class; ?>" <?php echo $this->cssID; ?> style="min-height:40px; <?php echo $this->style; ?>">
+    <div id="readspeaker_content_button_<?php echo $this->id;?>" class="ce_readspeaker rs_skip rsbtn rs_preserve" style="height:auto;">
+        <a class="rsbtn_play" accesskey="L" title="<?php echo $this->button_title; ?>" href="<?php echo $this->href; ?>">
+            <span class="rsbtn_left rsimg rspart">
+                <span class="rsbtn_text">
+                    <span><?php echo $this->button_title; ?></span>
+
+                </span>
+            </span>
+            <span class="rsbtn_right rsimg rsplay rspart"></span>
+        </a>
+    </div>
+</div>
+
+
+<!-- start readspeaker section -->
+<div id="<?php echo $this->readid; ?>" class="rs_reading_container block">

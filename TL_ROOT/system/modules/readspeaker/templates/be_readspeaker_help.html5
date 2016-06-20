@@ -1,0 +1,235 @@
+<?php echo $this->topBanner; ?>
+
+<div style="margin:20px;">
+   <h1 style="font-size:20px;">Make your content talk!</h1>
+    <h2>ReadSpeaker™, the read aloud plugin for Contao</h2><br>
+    
+    <p>Please select your chapter and click on it to enfolde it.</p>
+    
+    
+    
+    
+    
+    <h1 class="toggler tl_new">1. Get your customer id and DocReader cid <span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block;">
+        <p>If you have a license for your domain, see how to get the important id's</p>
+        <ol>
+            <li>
+                <p>Go to the Customer Panel module on the left pane and click on "Log in". Then enter your given username and password</p>
+                <a class=" colorbox_grp_0" href="system/modules/readspeaker/assets/help/JPEG/0.1.jpg" title="Customer Portal">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/0.1.jpg" alt="Customer Portal">
+                </a>
+                <a class=" colorbox_grp_0" href="system/modules/readspeaker/assets/help/JPEG/0.2.jpg" title="Customer Portal">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/0.2.jpg" alt="Customer Portal">
+                </a>
+            </li>
+            <li>
+                <p>Then click in the left menue bar on "Accounts". Here you will see the needed customer ID and DocReader CID. Note it somewhere, because we will need it for the language configuration.</p>
+                <a class=" colorbox_grp_0" href="system/modules/readspeaker/assets/help/JPEG/0.3.jpg" title="Customer Portal">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/0.3.jpg" alt="Customer Portal">
+                </a>
+                <a class=" colorbox_grp_0" href="system/modules/readspeaker/assets/help/JPEG/0.4.jpg" title="Customer Portal">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/0.4.jpg" alt="Customer Portal">
+                </a>
+            </li>
+           
+        </ol>
+    </div>
+    
+    
+    
+    <h1 class="toggler tl_new">2. Setup a language configuration <span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block;">
+        <p>This is the very initial part. ReadSpeaker will not work without it!</p>
+        <ol>
+            <li>
+                <p>Go to the Language module on the left pane and click on "New Language-Configration.</p>
+                <a class=" colorbox_grp_1" href="system/modules/readspeaker/assets/help/JPEG/1.1.jpg" title="Language-Configration">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/1.1.jpg" alt="Language-Configration">
+                </a>
+            </li>
+            <li>
+                <p>Decide, whether you want to use the DEMO mode or a full Version by <br>checking/unchecking <strong>"ReadSpeaker license available"</strong>.</p>
+                <a class=" colorbox_grp_2" href="system/modules/readspeaker/assets/help/JPEG/1.2.jpg" title="Language-Configration">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/1.2.jpg" alt="Language-Configration">
+                </a>
+                <a class=" colorbox_grp_2" href="system/modules/readspeaker/assets/help/JPEG/1.3.jpg" title="Language-Configration">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/1.3.jpg" alt="Language-Configration">
+                </a>
+            </li>
+            <li>
+                <p>After you created a language-configuration, it will be listet in the module and will be available for the ReadSpeaker players.</p>
+                <a class=" colorbox_grp_3" href="system/modules/readspeaker/assets/help/JPEG/1.4.jpg" title="Language-Configration">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/1.4.jpg" alt="Language-Configration">
+                </a>
+            </li>
+        </ol>
+    </div>
+
+
+    <h1 class="toggler tl_new">3. Add a Player as Content Element <span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block;">
+
+        <ol>
+            <li>
+                <p>For example go to the "Articles Module" and go to edit content.</p>
+                <a class=" colorbox_grp_4" href="system/modules/readspeaker/assets/help/JPEG/2.1.jpg" title="Player as Content Element">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.1.jpg" alt="Player as Content Element">
+                </a>
+            </li>
+            <li>
+                <p>Add <strong>ReadSpeaker Player Start</strong> as content element. Define the player button title and the desired language.</p>
+
+                <a class=" colorbox_grp_5" href="system/modules/readspeaker/assets/help/JPEG/2.2.jpg" title="Player as Content Element">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.2.jpg" alt="Player as Content Element">
+                </a>
+                <a class=" colorbox_grp_5" href="system/modules/readspeaker/assets/help/JPEG/2.3.jpg" title="Player as Content Element">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.3.jpg" alt="Player as Content Element">
+                </a>
+                <a class=" colorbox_grp_5" href="system/modules/readspeaker/assets/help/JPEG/2.4.jpg" title="Player as Content Element">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.4.jpg" alt="Player as Content Element">
+                </a>
+            </li>
+
+            <li>
+                <p>Add <strong>ReadSpeaker Player End</strong> as content element. Place it, where the reading should stop</p>
+                <p class="tl_info">Each Player Start needs an corresponding Player End !</p>
+                <a class=" colorbox_grp_6" href="system/modules/readspeaker/assets/help/JPEG/2.5.jpg" title="Player as Content Element">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.5.jpg" alt="Player as Content Element">
+                </a>
+                <a class=" colorbox_grp_6" href="system/modules/readspeaker/assets/help/JPEG/2.6.jpg" title="Player as Content Element">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.6.jpg" alt="Player as Content Element">
+                </a>
+                <a class=" colorbox_grp_6" href="system/modules/readspeaker/assets/help/JPEG/2.7.jpg" title="Player as Content Element">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.7.jpg" alt="Player as Content Element">
+                </a>
+            </li>
+
+
+
+            <li>
+                <p>You can also exclude text from beeing read within the reading area. Just use the content elements:<ul><li><strong>...skip reading from here</strong></li><li><strong>...continue reading from here</strong></li</ul></p><p>As an alternative, you can add the class <strong>rs_skip</strong> to the elements, that should be skipped.</p>
+                <a class=" colorbox_grp_7" href="system/modules/readspeaker/assets/help/JPEG/2.8.jpg" title="Player as Content Element">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.8.jpg" alt="Player as Content Element">
+                </a>
+                <a class=" colorbox_grp_7" href="system/modules/readspeaker/assets/help/JPEG/2.9.jpg" title="Player as Content Element">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.9.jpg" alt="Player as Content Element">
+                </a>
+            </li>
+        </ol>
+    </div>
+
+
+    <h1 class="toggler tl_new">4. Add a Player to the Page Layout <span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block;">
+        <ol>
+            <li>
+                <p>Select your Theme and create a new frontend module. Define the button title and select the language configuration and the layout section, that should be read.
+                    <br>The listing of layout sections include even custom layout sections.</p>
+                <a class=" colorbox_grp_8" href="system/modules/readspeaker/assets/help/JPEG/3.1.jpg" title="Player in Page Layout">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/3.1.jpg" alt="Player in Page Layout">
+                </a>
+                <a class=" colorbox_grp_8" href="system/modules/readspeaker/assets/help/JPEG/3.2.jpg" title="Player in Page Layout">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/3.2.jpg" alt="Player in Page Layout">
+                </a>
+            </li>
+            <li>
+                <p>Add the created frontend module to your page layout in any layout section (column) you want.</p>
+
+            </li>
+            <li>
+                <p>To skip modules from beeing read, just assign the class <strong>rs_skip</strong> to it or wrap them between the available skip ReadSpeaker modules</p>
+               
+                
+                <a class=" colorbox_grp_9" href="system/modules/readspeaker/assets/help/JPEG/3.3.jpg" title="Player in Page Layout">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/3.3.jpg" alt="Player in Page Layout">
+                </a>
+                
+            </li>
+
+
+
+            
+        </ol>
+    </div>
+    
+     <h1 class="toggler tl_new">5. Add a download link with DocReader <span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block;">
+       <p>With the DocReader you can create links to documents, like with the regular download element, but there will be an additional reading link that reads aloud the document with ReadSpeaker and the document will be viewable directly in the browser.</p>
+        <p>Im Inhaltselement ist eine Liste mit Dateien angeführt, die durch ReadSpeaker vorgelesen werden können.</p>
+        <ol>
+            <li>
+                <p>Select <em>ReadSpeaker DocReader</em> as content element.</p>
+                <a class=" colorbox_grp_10" href="system/modules/readspeaker/assets/help/JPEG/4.1.jpg" title="DocReader">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/4.1.jpg" alt="DocReader">
+                </a>
+               
+            </li>
+            <li>
+                <p>Fill out all necessary fields like title, language configuration and file source..</p>
+                <a class=" colorbox_grp_10" href="system/modules/readspeaker/assets/help/JPEG/4.2.jpg" title="DocReader">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/4.2.jpg" alt="DocReader">
+                </a>
+                
+            </li>
+            
+            <li>
+                <p>In the content list, you will get a preview how it will look like on your site with an additional information about the selected language configuration.</p>
+                <a class=" colorbox_grp_10" href="system/modules/readspeaker/assets/help/JPEG/4.3.jpg" title="DocReader">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/4.3.jpg" alt="DocReader">
+                </a>
+                
+            </li>    
+        </ol>
+    </div>
+
+
+    <h1 class="toggler tl_info">FOR WEB DEVELOPERS AND WEB ADMINISTRATORS<span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block; padding:5px 25px;">
+        <h1>HTML 5:</h1>
+        <p>ReadSpeaker only works in an HTML5 environment.</p>
+        <p>ReadSpeaker uses the ID of an element to define what to read. The URL of the current page will be sent to ReadSpeaker, together with the language and the ID of the container</p>
+        <p>ReadSpeaker will then replace the content of the given container with a readable markup and will stream the voice via mp3.</p>
+        <hr>
+        <h1>Javascript:</h1>
+        
+        <br><p>So bare in mind that, because of the markup replacement, hooked javascript events of elements will get lost. </p>
+        
+        <p>
+            There is an event fired to the document, when ReadSpeaker has changed the content of a container.
+            <br>You can interact with it by doing something like this:
+            <br>
+            <code>
+                <span style="color:#AFAFAF;">&lt;script&gt;</span>
+                <br>document.addEventListener(<span style="color:#EE0000;">"onRsContentChanged"</span>, function(<span style="color:#EE0000;">e</span>) {
+                <br>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#00AA00;">id</span> = <span style="color:#EE0000;">e.detail.container</span>; //id of the updated container
+                <br>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;/*
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; * Here you can rehook your javascript
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; * to the elements within the changed container.
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; *
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; * e.g. jQuery:
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; * $("#"+<span style="color:#00AA00;">id</span>).slideDown(500);
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; */
+                <br>
+                <br>});
+                <br><span style="color:#AFAFAF;">&lt;/script&gt;</span>
+            </code>
+        </p>
+        <div style="padding-left:25px; border-left: 1px solid #bebebe;">
+        <h1>Contao Core jQuery Plugins:</h1>
+        <p>The default functionalities of the <strong>jQuery</strong> framework for <strong><ul style="margin-left:25px;"><li>j_tablesorter</li><li>j_accordion</li><li>j_slider</li><li>j_colorbox</li><li>j_mediaelement</li></ul></strong> <br>in HTML5 page layout are fixed. <br><br>The default templates were rewritten and hooked to an "onRsContentChanged" event-listener.</p>
+        <hr>
+        <h1>Contao Core Mootools Plugins:</h1>
+        <p>The default functionalities of the <strong>Mootools</strong> framework for <strong><ul style="margin-left:25px;"><li>moo_mediabox</li><li>moo_slider</li><li>moo_tablesort</li><li>moo_accordion</li><li>moo_chosen</li><li>moo_slimbox</li></ul></strong> <br>in HTML5 page layout are fixed. <br><br>The default templates were rewritten and hooked to an "onRsContentChanged" event-listener.</p>
+        
+        </div>
+    </div>
+
+    <div style="margin: 50px 0px; text-align: center;">
+        <div style="margin: 10px 0px;"><a href="http://www.webpixels.at" target="_blank" title="www.webpixels.at"><img  src="system/modules/readspeaker/assets/webpixels.png" alt="Webpixels - www.webpixels.at" ></a></div>
+        This ReadSpeaker module for CONTAO CMS was developed by the agency Webpixels - <a href="http://www.webpixels.at" target="_blank" title="www.webpixels.at">www.webpixels.at</a>
+    </div>
+   
+</div>

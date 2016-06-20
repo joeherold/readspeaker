@@ -1,0 +1,235 @@
+<?php echo $this->topBanner; ?>
+
+<div style="margin:20px;">
+    <h1 style="font-size:20px;">Bringen Sie Ihre Inhalte zum Sprechen!</h1>
+    <h2>ReadSpeaker™, der Vorleser für Contao</h2><br>
+    
+    <p>Bitte wählen Sie Ihr gewünschtes Kapitel und klicken Sie daruf um es zu öffnen.</p>
+    
+    
+    <h1 class="toggler tl_new">1. Wie Sie zu Ihrer Kunden ID und DocReader CID kommen <span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block;">
+        <p>Wenn Sie eine ReadSpeaker Lizenz haben, sehen Sie hier wie Sie zu den wichtigen Parametern kommen.</p>
+        <ol>
+            <li>
+                <p>Klicken Sie im linken Menü auf "Kundenportal" und klicken Sie anschließend auf  "Log in". Geben Sie Ihren ReadSpeaker Benutzernamen und das zugehörige Kennwort ein.</p>
+                <a class=" colorbox_grp_0" href="system/modules/readspeaker/assets/help/JPEG/0.1.jpg" title="Kundendaten">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/0.1.jpg" alt="Kundendaten">
+                </a>
+                <a class=" colorbox_grp_0" href="system/modules/readspeaker/assets/help/JPEG/0.2.jpg" title="Kundendaten">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/0.2.jpg" alt="Kundendaten">
+                </a>
+            </li>
+            <li>
+                <p>Dann klicken Sie im linken Menü auf "Accounts". Hier sehen Sie dann Ihre Kunden ID und Ihre DocReader CID. Notieren Sie sich diese, denn wir werden sie für die Sprachenkonfiguration benötigen.</p>
+                <a class=" colorbox_grp_0" href="system/modules/readspeaker/assets/help/JPEG/0.3.jpg" title="Kundendaten">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/0.3.jpg" alt="Kundendaten">
+                </a>
+                <a class=" colorbox_grp_0" href="system/modules/readspeaker/assets/help/JPEG/0.4.jpg" title="Kundendaten">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/0.4.jpg" alt="Kundendaten">
+                </a>
+            </li>
+           
+        </ol>
+    </div>
+    
+    <h1 class="toggler tl_new">2. Sprachenkonfiguration <span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block;">
+        <p>Das ist der wichtigste Punkt. ReadSpeaker wird ohne eine gültige Sprachenkonfiguration nicht funktionieren!</p>
+        <ol>
+            <li>
+                <p>Klicken Sie im linken Menü auf "Sprachen" und klicken dann auf "Neue Konfiguration".</p>
+                <a class=" colorbox_grp_1" href="system/modules/readspeaker/assets/help/JPEG/1.1.jpg" title="Sprachenkonfiguration">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/1.1.jpg" alt="Sprachenkonfiguration">
+                </a>
+            </li>
+            <li>
+                <p>Wählen Sie, ob Sie die Sprache als Demo Version oder Voll-Version verwenden möchten, indem Sie die Checkbox <strong>"ReadSpeaker Lizenz vorhanden"</strong> für Lizenz entsprechend setzen.</p>
+                <a class=" colorbox_grp_2" href="system/modules/readspeaker/assets/help/JPEG/1.2.jpg" title="Sprachenkonfiguration">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/1.2.jpg" alt="Sprachenkonfiguration">
+                </a>
+                <a class=" colorbox_grp_2" href="system/modules/readspeaker/assets/help/JPEG/1.3.jpg" title="1.3 New Language FULL Version">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/1.3.jpg" alt="Sprachenkonfiguration">
+                </a>
+            </li>
+            <li>
+                <p>Nachdem Sie eine Sprachkonfiguration erstellt haben wird diese im Modul angezeigt und steht Ihnen für die ReadSpeaker Player zur Verfügung.</p>
+                <a class=" colorbox_grp_3" href="system/modules/readspeaker/assets/help/JPEG/1.4.jpg" title="Sprachenkonfiguration">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/1.4.jpg" alt="Sprachenkonfiguration">
+                </a>
+            </li>
+        </ol>
+    </div>
+
+
+    <h1 class="toggler tl_new">3. Player als Content Element hinzufügen <span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block;">
+
+        <ol>
+            <li>
+                <p>Als Beispiel gehen Sie bitte in das <strong>"Artikel Modul"</strong> und bearbeiten die Inhaltselemente.</p>
+                <a class=" colorbox_grp_4" href="system/modules/readspeaker/assets/help/JPEG/2.1.jpg" title="Player als Content Element hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.1.jpg" alt="Player als Content Element hinzufügen">
+                </a>
+            </li>
+            <li>
+                <p>Fügen Sie das Inhaltselement <strong>ReadSpeaker Player Anfang</strong> hinzu. Definieren Sie den Titel der Play-Schaltfläche und wählen Sie eine der zuvor konfigurierten Sprachen.</p>
+
+                <a class=" colorbox_grp_5" href="system/modules/readspeaker/assets/help/JPEG/2.2.jpg" title="Player als Content Element hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.2.jpg" alt="Player als Content Element hinzufügen">
+                </a>
+                <a class=" colorbox_grp_5" href="system/modules/readspeaker/assets/help/JPEG/2.3.jpg" title="Player als Content Element hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.3.jpg" alt="Player als Content Element hinzufügen">
+                </a>
+                <a class=" colorbox_grp_5" href="system/modules/readspeaker/assets/help/JPEG/2.4.jpg" title="Player als Content Element hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.4.jpg" alt="Player als Content Element hinzufügen">
+                </a>
+            </li>
+
+            <li>
+                <p>Fügen Sie dann das Inhaltselement <strong>ReadSpeaker Player Ende</strong> hinzu. Platzieren Sie es am ende zu vorzulesenden Textes</p>
+                <p class="tl_info">Jeder <em>ReadSpeaker Player Anfang</em> benötigt einen zugehörigen <em>ReadSpeaker Player Ende</em></p>
+                <a class=" colorbox_grp_6" href="system/modules/readspeaker/assets/help/JPEG/2.5.jpg" title="Player als Content Element hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.5.jpg" alt="Player als Content Element hinzufügen">
+                </a>
+                <a class=" colorbox_grp_6" href="system/modules/readspeaker/assets/help/JPEG/2.6.jpg" title="Player als Content Element hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.6.jpg" alt="Player als Content Element hinzufügen">
+                </a>
+                <a class=" colorbox_grp_6" href="system/modules/readspeaker/assets/help/JPEG/2.7.jpg" title="Player als Content Element hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.7.jpg" alt="Player als Content Element hinzufügen">
+                </a>
+            </li>
+
+
+
+            <li>
+                <p>Es kann auch Text vom Vorlesen ausgeschlossen werden. Dazu benutzen Sie die Inhaltselemente:<ul><li><strong>...Vorlesen ab hier überspringen</strong></li><li><strong>...ab hier weiter vorlesen</strong></li</ul></p><p>Als Alternative können Sie zu überspringenden Elementen auch die Klasse <strong>rs_skip</strong> zuweisen.</p>
+                <a class=" colorbox_grp_7" href="system/modules/readspeaker/assets/help/JPEG/2.8.jpg" title="Player als Content Element hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.8.jpg" alt="Player als Content Element hinzufügen">
+                </a>
+                <a class=" colorbox_grp_7" href="system/modules/readspeaker/assets/help/JPEG/2.9.jpg" title="Player als Content Element hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/2.9.jpg" alt="Player als Content Element hinzufügen">
+                </a>
+            </li>
+        </ol>
+    </div>
+
+
+    <h1 class="toggler tl_new">4. Player dem Seitenlayout hinzufügen <span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block;">
+        <ol>
+            <li>
+                <p>Wählen Sie ihr gewünschtes Theme und erstellen dort ein neues Frontend Modul vom Typ <strong>"ReadSpeaker Player für Layoutbereich"</strong>. Definieren Sie den Titel der Play Schaltfläche und wählen Sie eine zuvor konfigurierte Sprache. Weiters wählen Sie den vorzulesenden Layout-Bereich.
+                    <br>Die Auflistung der Layout-Bereiche beinhaltet sowohl die standard Bereiche (Hauptspalte, Linke Spalte, etc;) wie auch die eigens angelegten Layout-Bereiche</p>
+                <a class=" colorbox_grp_8" href="system/modules/readspeaker/assets/help/JPEG/3.1.jpg" title="Player dem Seitenlayout hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/3.1.jpg" alt="Player dem Seitenlayout hinzufügen">
+                </a>
+                <a class=" colorbox_grp_8" href="system/modules/readspeaker/assets/help/JPEG/3.2.jpg" title="Player dem Seitenlayout hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/3.2.jpg" alt="Player dem Seitenlayout hinzufügen">
+                </a>
+            </li>
+            <li>
+                <p>Fügen Sie das erstellte Frontend Modul dem Seitenlayout hinzu.</p>
+
+            </li>
+            <li>
+                <p>Um Frontend Module vom Vorlesen auszuschließen (z.B. Breadcrumb) können Sie diesen die Klasse <strong>rs_skip</strong> zuweisen oder aber sie fügen davor/danach die "Vorlesen überspringen" Frontend Module ein. Diese müssen natürlich ebenfalls zuvor als Frontend Module angelegt werden.</p>
+               
+                
+                <a class=" colorbox_grp_9" href="system/modules/readspeaker/assets/help/JPEG/3.3.jpg" title="Player dem Seitenlayout hinzufügen">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/3.3.jpg" alt="Player dem Seitenlayout hinzufügen">
+                </a>
+               
+            </li>
+
+
+
+            
+        </ol>
+    </div>
+    
+    <h1 class="toggler tl_new">5. DocReader als Inhaltselement hinzufügen <span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block;">
+        <p>Mit dem DocReader können Sie Links zu Dokumenten erstellen, so wie mit dem Download Element, jedoch wird zusätlich dahinter ein Link mit einer Vorlese-Schaltfläche platziert, die das Dokument dann mittels ReadSpeaker vorliest und direkt im Browser betrachtet werden kann.</p>
+        <p>Im Inhaltselement ist eine Liste mit Dateien angeführt, die durch ReadSpeaker vorgelesen werden können.</p>
+        <ol>
+            <li>
+                <p>Wählen Sie als Inhaltselement <em>ReadSpeaker DocReader</em></p>
+                <a class=" colorbox_grp_10" href="system/modules/readspeaker/assets/help/JPEG/4.1.jpg" title="DocReader">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/4.1.jpg" alt="DocReader">
+                </a>
+               
+            </li>
+            <li>
+                <p>Füllen Sie die Felder für Titel der Schaltfläche, Sprachkonfiguration und Quelldatei aus.</p>
+                <a class=" colorbox_grp_10" href="system/modules/readspeaker/assets/help/JPEG/4.2.jpg" title="DocReader">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/4.2.jpg" alt="DocReader">
+                </a>
+                
+            </li>
+            
+            <li>
+                <p>In der Liste der Inhaltselemente sehen Sie dann eine Vorschau, wie es auf der Webseite aussehen wird mit einer Zusatzinfo zur Sprachkonfiguration.</p>
+                <a class=" colorbox_grp_10" href="system/modules/readspeaker/assets/help/JPEG/4.3.jpg" title="DocReader">
+                    <img data-lightbox="true" class=" thumb" src="system/modules/readspeaker/assets/help/THUMBS/JPEG/4.3.jpg" alt="DocReader">
+                </a>
+                
+            </li>
+            
+
+
+
+            
+        </ol>
+    </div>
+
+
+    <h1 class="toggler tl_info">FÜR WEB ENTWICKLER UND WEB ADMINISTRATOREN<span class="tl_green plus">+</span><span class="tl_green minus">-</span></h1>
+    <div class="toggle_section" style="display:block; padding:5px 25px;">
+        <h1>HTML 5:</h1>
+        <p>ReadSpeaker funktioniert nur in einm HTML5 Seitenlayout.</p>
+        <p>ReadSpeaker nutzt die ID von HTML Elementen um zu definieren, was vorgelesen werden soll. Die aktuelle URL wird samt weiterer Parameter asynchron mittels JavaScript an ReadSpeaker übermittelt.</p>
+        <p>ReadSpeaker ersetzt dann den Markup des Containers mit einer für ReadSpeaker lesbaren Variante und Anweisungen und streamt dann den gelesenen Text in Echtzeit als MP3.</p>
+        <hr>
+        <h1>JavaScript:</h1>
+        
+        <br><p>Bitte beachten Sie, dass durch die Ersetzung des Markups zugeordnete JavaScript Events verloren gehen.</p>
+        
+        <p>Es wird ein DOM Event an "document" gefeuert, sobald ReadSpeaker den Inhalt des Containers ersetzt hat.
+            
+            <br>Sie können mit diesem DOM Event natürlich arbeiten, um etwaige Events neu zu verknüpfen.
+            <br>
+            <code>
+                <span style="color:#AFAFAF;">&lt;script&gt;</span>
+                <br>document.addEventListener(<span style="color:#EE0000;">"onRsContentChanged"</span>, function(<span style="color:#EE0000;">e</span>) {
+                <br>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#00AA00;">id</span> = <span style="color:#EE0000;">e.detail.container</span>; //id of the updated container
+                <br>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;/*
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; * Here you can rehook your javascript
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; * to the elements within the changed container.
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; *
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; * e.g. jQuery:
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; * $("#"+<span style="color:#00AA00;">id</span>).slideDown(500);
+                <br>&nbsp;&nbsp;&nbsp;&nbsp; */
+                <br>
+                <br>});
+                <br><span style="color:#AFAFAF;">&lt;/script&gt;</span>
+            </code>
+        </p>
+        <div style="padding-left:25px; border-left: 1px solid #bebebe;">
+        <h1>Contao jQuery Plugins:</h1>
+        <p>Die normale Funktionalität von <strong>jQuery</strong> Plugins für  <strong><ul style="margin-left:25px;"><li>j_tablesorter</li><li>j_accordion</li><li>j_slider</li><li>j_colorbox</li><li>j_mediaelement</li></ul></strong> <br>im HTML5 Seitenlayout ist gewährleistet. <br><br>Die standard Templates wurden dazu erweitert und neu geschrieben um Sie mit dem "onRsContentChanged" DOM Event zu verknüpfen.</p>
+        <hr>
+        <h1>Contao Mootools Plugins:</h1>
+        <p>Die normale Funktionalität von <strong>Mootools</strong> Plugins für <strong><ul style="margin-left:25px;"><li>moo_mediabox</li><li>moo_slider</li><li>moo_tablesort</li><li>moo_accordion</li><li>moo_chosen</li><li>moo_slimbox</li></ul></strong> <br>im HTML5 Seitenlayout ist gewährleistet. <br><br>Die standard Templates wurden dazu erweitert und neu geschrieben um Sie mit dem "onRsContentChanged" DOM Event zu verknüpfen.</p>
+        
+        </div>
+    </div>
+
+    <div style="margin: 50px 0px; text-align: center;">
+        <div style="margin: 10px 0px;"><a href="http://www.webpixels.at" target="_blank" title="www.webpixels.at"><img  src="system/modules/readspeaker/assets/webpixels.png" alt="Webpixels - www.webpixels.at" ></a></div>
+        Das ReadSpeaker Modul für CONTAO CMS wurde von der Agentur Webpixels entwickelt - <a href="http://www.webpixels.at" target="_blank" title="www.webpixels.at">www.webpixels.at</a>
+    </div>
+    
+</div>

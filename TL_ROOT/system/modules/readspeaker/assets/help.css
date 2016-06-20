@@ -1,0 +1,140 @@
+/* 
+    Document   : help
+    Created on : 03.07.2013, 19:13:45
+    Author     : johannespichler
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.center {
+    text-align: center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+.thumb {
+    width:150px;
+
+    transition: width 500ms;
+
+}
+
+.athumb:hover {
+    width:586px;
+    background-color: #EFEFEF;
+    border:1px solid #FE3355;
+}
+
+#main ol {
+
+    margin: 20px 20px 20px 15px;
+}
+
+#main ol > li {
+    list-style-type: decimal;
+    padding: 5px 0px;
+    font-size:12px;
+    font-weight: bold;
+}
+
+#main ol > li * { font-weight: normal; }
+#main ul > li {
+    list-style-type: disc;
+    padding: 5px 0px;
+
+}
+
+
+.toggler {
+    cursor: pointer;
+    margin:15px 0px 0px 0px;
+
+    padding: 5px 5px 5px 25px;
+    border-radius: 5px;
+    /*
+    background-color: #E3E3E3;
+    
+    border: 1px solid #bbbbbb;
+    
+    box-shadow: 0px 0px 5px 0px #AFAFAF;*/
+    z-index:999;
+}
+
+.toggler.open {
+    /*border-radius: 5px 5px 0px 0px;*/
+    border-bottom-width: 1px;
+    border-bottom-color: #333;
+    color:#8ab858;
+    background-color: #F4F4F4;
+
+}
+
+.toggler span {
+    float: right;
+    margin-right:10px;
+    font-size:10px;
+}
+
+.toggler:hover {
+    color:#8ab858;
+    background-color: #F4F4F4;
+
+}
+
+.toggle_section {
+    display:none;
+    background-color: #FFF;
+    margin: 0px;
+    padding: 5px;
+    overflow:hidden;
+    /*
+    border-radius: 0px 0px 5px 5px;
+    border: 1px solid #bbbbbb;
+    border-top-width: 0px;
+    box-shadow: 0px 0px 5px 0px #AFAFAF;*/
+    z-index:998;
+}
+
+.toggle_section.open {
+
+
+}
+
+code {
+    background-color: #EFEFEF;
+    display:block;
+    padding:15px;
+    margin: 10px 0px;
+    font-size:13px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #AFAFAF;
+    border: 1px solid #FFF;
+}
+
+
+.toggler > .plus {
+    display: inline;
+}
+.toggler > .minus {
+    display: none;
+}
+
+.toggler.open > .plus {
+    display: none;
+}
+.toggler.open > .minus {
+    display: inline;
+}
+
+
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}

@@ -1,0 +1,11 @@
+<div class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+
+     <?php if ($this->headline): ?>
+     <<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
+     <?php endif; ?>
+
+        <a href="<?php echo $this->file_url; ?>" title="<?php echo $this->title; ?>" target="_blank"><img src="<?php echo $this->icon; ?>" > <?php echo $this->link; ?> (<?php echo $this->file_size; ?>)</a>
+        <a href="<?php echo $this->href; ?>" onclick="window.open(this.href, 'dcrwin'); return false;" title="<?php echo $this->button_title; ?>" style="text-decoration: none; margin-left: 6px; color: #3333aa;">
+        <img src="system/modules/readspeaker/assets/appicon.png" style="border-style: none; vertical-align: text-bottom;" alt="ReadSpeaker"> <?php echo $this->button_title; ?></a>
+
+</div>

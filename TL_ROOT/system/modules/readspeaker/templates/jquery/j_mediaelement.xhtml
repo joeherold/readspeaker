@@ -1,0 +1,36 @@
+<?php
+
+// Add the mediaelement style sheet
+$GLOBALS['TL_CSS'][] = 'assets/jquery/mediaelement/'. MEDIAELEMENT .'/css/mediaelementplayer.min.css||static';
+
+?>
+
+<script type="text/javascript" src="<?php echo TL_ASSETS_URL; ?>assets/jquery/mediaelement/<?php echo MEDIAELEMENT; ?>/js/mediaelement-and-player.min.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    (function($) {
+        $(document).ready(function() {
+            var makeMediaelement = function(container) {
+                selector = 'video,audio';
+                if (container) {
+                    selector  = '#' + container + ' ' + 'video,';
+                    selector += '#' + container + ' ' + 'audio';
+                }
+                $(selector).mediaelementplayer({
+                    // Put custom options here
+                    pluginPath: '<?php echo TL_PATH; ?>/assets/jquery/mediaelement/<?php echo MEDIAELEMENT; ?>/',
+                    flashName: 'legacy/flashmediaelement.swf',
+                    silverlightName: 'legacy/silverlightmediaelement.xap'
+                });
+            }
+
+            makeMediaelement();
+
+            document.addEventListener("onRsContentChanged", function(e) {
+                container = e.detail.container;
+                makeMediaelement();
+            });
+        });
+    })(jQuery);
+    /* ]]> */
+</script>

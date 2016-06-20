@@ -1,0 +1,143 @@
+/* 
+    Document   : contact.css
+    Created on : 03.07.2013, 19:13:45
+    Author     : johannespichler
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/**
+* Main Contact Form
+*/
+
+#contactform,
+#webinarform,
+#formReaderdemo,
+#contactform textarea {
+    color: #333;
+    font-size:  13px;
+    font-size: .813rem;
+}
+
+
+
+.name,
+.email,
+.phone,
+.company,
+.website,
+#country,
+#howdidyou,
+.message_section,
+#message  {
+    position: relative;
+    border: 1px solid #CCC;
+    margin: 4px 0 20px 0;
+    padding-left: 2em; /* 26px */
+    height: 1.5em;
+}
+
+#contactform .name,
+#contactform .email,
+#contactform .phone,
+#contactform .company,
+#contactform .website,
+#contactform .message_section,
+#contactform .demo_section,
+#contactform #message  {
+    width: 80%;
+}
+
+#country {
+    height: 1.75em;
+    padding-left: .25em;
+    width: 80%;
+}
+
+
+#widget_demo_form .name,
+#widget_demo_form .email,
+#widget_demo_form .company,
+#widget_demo_form .website,
+#widget_demo_form #country {
+    width: 100%;
+}
+
+#country_select .styled_select {
+    width:200px;
+}
+.nothing {
+    display: none;
+}
+
+.name {
+    background: url("http://www.readspeaker.com/wp-content/themes/readspeaker/img/vcard.png") no-repeat 6px center;
+}
+
+.email {
+    background: url("http://www.readspeaker.com/wp-content/themes/readspeaker/img/email.png") no-repeat 6px center;
+}
+
+.phone {
+    background: url("http://www.readspeaker.com/wp-content/themes/readspeaker/img/phone.png") no-repeat 6px center;
+}
+
+.company {
+    background: url("http://www.readspeaker.com/wp-content/themes/readspeaker/img/chart_organisation.png") no-repeat 6px center;
+}
+
+.website {
+    background: url("http://www.readspeaker.com/wp-content/themes/readspeaker/img/world_link.png") no-repeat 6px center;
+}
+
+#message {
+    background: url("http://www.readspeaker.com/wp-content/themes/readspeaker/img/page_edit.png") no-repeat 6px 6%;
+    height: 6em;
+    width: 107%; /* ???? */
+
+}
+
+.demo_section label.radio {
+    padding: 0 0 0 1.538em; /* 20px */
+    margin: 0 0 0 .231em; /* 3px */
+}
+
+.demo_section input.radio.last {
+    margin-left: 3.077em; /* 40px */
+}
+
+.demo_section label.radio.icon-yes {
+    background: transparent url("http://www.readspeaker.com/wp-content/themes/readspeaker/img/tick.png") no-repeat scroll top left;
+}
+
+.demo_section label.radio.icon-no {
+    background: transparent url("http://www.readspeaker.com/wp-content/themes/readspeaker/img/cross.png") no-repeat scroll top left;
+}
+
+.demo_section label.radio.no-icon {
+    padding: 0;
+}  
+#contactform label {
+    line-height:2em;
+}
+
+#contactform fieldset {
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+.col-left, .col_left {
+    float: left;
+    width: 48%;
+}
+
+.col-right, .col_right {
+    float: right;
+    width: 48%;
+}

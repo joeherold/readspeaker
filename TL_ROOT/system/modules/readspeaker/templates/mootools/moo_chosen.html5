@@ -1,0 +1,36 @@
+<?php
+
+// CSS files
+$GLOBALS['TL_CSS'][] = 'assets/mootools/chosen/chosen.css||static';
+$GLOBALS['TL_CSS'][] = 'assets/mootools/stylect/css/stylect.css||static';
+
+// JavaScript files
+$objCombiner = new Combiner();
+$objCombiner->add('assets/mootools/chosen/chosen.js');
+$objCombiner->add('assets/mootools/stylect/js/stylect.js');
+
+?>
+
+<script src="<?php echo $objCombiner->getCombinedFile(); ?>"></script>
+<script>
+    (function($) {
+
+        var makeChosen = function(container) {
+            selector = 'select.tl_chosen';
+            if (container) {
+                selector = '#' + container + ' ' + 'select.tl_chosen';
+                $$(selector).getNext().destroy();
+            }
+            $$(selector).chosen();
+        }
+
+        window.addEvent('domready', function() {
+            makeChosen();
+        });
+
+        document.addEventListener("onRsContentChanged", function(e) {
+            container = e.detail.container;
+            makeChosen(container);
+        });
+    })(document.id);
+</script>

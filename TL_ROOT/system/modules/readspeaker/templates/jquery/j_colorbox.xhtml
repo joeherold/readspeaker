@@ -1,0 +1,35 @@
+<?php
+
+// Add the colorbox style sheet
+$GLOBALS['TL_CSS'][] = 'assets/jquery/colorbox/'. COLORBOX .'/css/colorbox.min.css||static';
+
+?>
+
+<script type="text/javascript" src="<?php echo TL_ASSETS_URL; ?>assets/jquery/colorbox/<?php echo COLORBOX; ?>/js/colorbox.min.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    (function($) {
+        $(document).ready(function() {
+            var makeColorbox = function() {
+                $(document).ready(function() {
+                    $('a[rel^=lightbox]').colorbox({
+                        // Put custom options here
+                        loop: false,
+                        maxWidth: '95%',
+                        maxHeight: '95%'
+                    });
+                });
+            }
+            
+            makeColorbox();
+            
+            document.addEventListener("onRsContentChanged", function(e) {
+                container = e.detail.container;
+                makeColorbox();
+            });
+
+
+        });
+    })(jQuery);
+    /* ]]> */
+</script>

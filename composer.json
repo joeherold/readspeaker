@@ -1,0 +1,37 @@
+{
+    "name":"webpixels/wp_readspeaker",
+    "description":"A readspeaker implementation for contao.",
+    "keywords":["webpixels","pliigo","webplus", "contao"],
+    "type":"contao-module",
+    "homepage":"http://www.webpixels.at",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Johannes Pichler",
+            "email":"j.pichler@webpixels.at",
+            "homepage":"http://www.webpixels.at",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "email":"j.pichler@webpixels.at",
+        "issues":"https://bitbucket.org/joeherold/wp_readspeaker/issues",
+        "irc":"irc://irc.freenode.org/contao.dev",
+        "source":"https://bitbucket.org/joeherold/wp_readspeaker/src"
+    },
+    "require":{
+        "php":">=5.3",
+        "contao/core": ">=3.2",
+        "contao-community-alliance/composer-installer": "*"
+    },
+    "replace":{
+        "contao-legacy/readspeaker":"*"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "TL_ROOT/system/modules/readspeaker": "system/modules/readspeaker"
+            }
+        }
+    }
+}

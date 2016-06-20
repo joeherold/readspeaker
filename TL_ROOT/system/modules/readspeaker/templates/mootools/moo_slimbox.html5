@@ -1,0 +1,46 @@
+<?php
+
+// Add slimbox style sheet
+$GLOBALS['TL_CSS'][] = 'assets/mootools/slimbox/' . SLIMBOX . '/css/slimbox.css||static';
+
+?>
+
+<script src="<?php echo TL_ASSETS_URL; ?>assets/mootools/slimbox/<?php echo SLIMBOX; ?>/js/slimbox.js"></script>
+<script>
+    (function($) {
+
+        var makeSlimbox = function(container) {
+            selector = 'lbImage';
+            selector_next = 'lbNextLink';
+            selector_prev = 'lbPrevLink';
+            if (container) {
+                selector = '#' + container + ' ' + 'lbImage';
+                selector_next = '#' + container + ' ' + 'lbNextLink';
+                selector_prev = '#' + container + ' ' + 'lbPrevLink';
+            }
+
+            $$(document.links).filter(function(el) {
+                return el.getAttribute('data-lightbox') != null;
+            }).slimbox({
+                // Put custom options here
+            }, null, function(el) {
+                var attr = this.getAttribute('data-lightbox');
+                return (this == el) || (attr && el.getAttribute('data-lightbox').match(attr));
+            });
+            $(selector).addEvent('swipe', function(e) {
+                (e.direction == 'left') ? $(selector_next).fireEvent('click') : $(selector_prev).fireEvent('click');
+            });
+        }
+
+
+
+        window.addEvent('domready', function() {
+            makeSlimbox();
+        });
+
+        document.addEventListener("onRsContentChanged", function(e) {
+            container = e.detail.container;
+            makeSlimbox(container);
+        });
+    })(document.id);
+</script>

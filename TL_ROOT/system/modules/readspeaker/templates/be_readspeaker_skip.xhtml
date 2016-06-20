@@ -1,0 +1,6 @@
+<?php if ($this->cssID || $this->class || $this->style): ?>
+
+<div class="block <?php echo $this->class; ?>" <?php echo ($this->style ? 'style="'.$this->style.'"' : ''); ?> <?php echo $this->cssID; ?> ></div>
+<?php endif; ?>
+
+<!-- RSPEAK_STOP -->

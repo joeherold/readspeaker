@@ -1,0 +1,49 @@
+<?php
+
+// Add the mediabox style sheet
+$GLOBALS['TL_CSS'][] = 'assets/mootools/mediabox/'. MEDIABOX .'/css/mediaboxAdvBlack21.css||static';
+
+?>
+
+<script type="text/javascript" src="<?php echo TL_ASSETS_URL; ?>assets/mootools/mediabox/<?php echo MEDIABOX; ?>/js/mediabox.js"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    (function($) {
+
+        var makeMediabox = function(container) {
+            selector = 'mbImage';
+            selector_next = 'mbNextLink';
+            selector_prev = 'mbPrevLink';
+            if (container) {
+                selector = '#' + container + ' ' + 'mbImage';
+                selector_next = '#' + container + ' ' + 'mbNextLink';
+                selector_prev = '#' + container + ' ' + 'mbPrevLink';
+            }
+
+            var links = $$('a').filter(function(el) {
+                return el.rel && el.rel.test(/^lightbox/i);
+            });
+            $$(links).mediabox({
+                /* Put custom options here */
+            }, null, function(el) {
+                var rel0 = this.rel.replace(/[[]|]/gi, ' ');
+                var relsize = rel0.split(' ');
+                return (this == el) || ((this.rel.length > 8) && el.rel.match(relsize[1]));
+            });
+            $(selector).addEvent('swipe', function(e) {
+                (e.direction == 'left') ? $(selector_next).fireEvent('click') : $(selector_prev).fireEvent('click');
+            });
+        }
+
+        window.addEvent('domready', function() {
+            makeMediabox();
+        });
+
+        document.addEventListener("onRsContentChanged", function(e) {
+            container = e.detail.container;
+            makeMediabox(container);
+        });
+
+    })(document.id);
+    /* ]]> */
+</script>
