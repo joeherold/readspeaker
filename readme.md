@@ -15,7 +15,7 @@ But you may install Contao 3.x modules manually in Contao 4.0, with a few tweaks
 3. unzip the package
 4. copy the unziped ***readspeaker folder*** to the following contao 4.x path: ***TL_ROOT/system/modules/readspeaker*** by FTP to your webserver
 5. open this file of Contao 4.X: TL_ROOT/app/ **AppKernel.php** for edit in your prefered editor
-6. add 2 Lines of Code: (SEE CODEBLOCK BELOW)[#codeblock-for-appkernelphp]
+6. add 2 Lines of Code: (SEE CODEBLOCK BELOW)[https://github.com/joeherold/readspeaker#codeblock-for-appkernelphp]
 7. login to contao backend and go to maintaince
 8. select "empty internal cache" & "recreate symlinks"
 9. then go to the contao install tool (your.domain.com/install.php) and update the database tables
